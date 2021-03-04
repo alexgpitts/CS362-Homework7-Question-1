@@ -10,7 +10,7 @@ class TestCase(unittest.TestCase):
         self.assertEqual(FizzBuzz.FizzBuzz(15), "FizzBuzz") 
 
     #A test that checks a number divisible by 3 and not 5
-    def test_FizzBuzz_1(self): 
+    def test_FizzBuzz_2(self): 
         self.assertEqual(FizzBuzz.FizzBuzz(12), "Fizz") 
 
 
