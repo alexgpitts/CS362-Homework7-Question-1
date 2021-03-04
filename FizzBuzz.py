@@ -11,6 +11,7 @@ def FizzBuzz(*args):
         else:
             arr.append(i)
         i+=1
+    print(arr) #last step is to just print all the numbers
     if(type(args[0]) == int):
         return arr[args[0]-1]
 
