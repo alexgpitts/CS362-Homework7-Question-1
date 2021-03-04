@@ -4,13 +4,10 @@ import FizzBuzz
 
 #unittest class tests
 class TestCase(unittest.TestCase):
-    def test_fib_9(self): 
-        i = 1
-        arr = []
-        while i <= 100: 
-            arr.append(i)
-            i+=1 
-        self.assertEqual(FizzBuzz.FizzBuzz(), arr) 
+
+    #A test that checks a number divisible by 3 and 5
+    def test_FizzBuzz_1(self): 
+        self.assertEqual(FizzBuzz.FizzBuzz(15), "FizzBuzz") 
 
 
 
